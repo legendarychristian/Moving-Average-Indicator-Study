@@ -6,9 +6,7 @@ import math
 import talib
 import requests
 
-BASE_URL = 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-09/2023-01-09?apiKey=ppZ0Z1lnc4zbL6P1WQB0WVD5S5q0UGtV'
-
-AGGREGATE_BARS_URL = 'https://api.polygon.io/v2/aggs/ticker/TSLA/range/1/hour/2023-12-01/2024-01-20?adjusted=true&sort=asc&limit=50000&apiKey=ppZ0Z1lnc4zbL6P1WQB0WVD5S5q0UGtV'
+AGGREGATE_BARS_URL = ''
 
 response = requests.get(f"{AGGREGATE_BARS_URL}")
 
